@@ -23,3 +23,4 @@
       country: US
       attributes:
         telephoneNumber: 111-123456
+      password_expired: no
