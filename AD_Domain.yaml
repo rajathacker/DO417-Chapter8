@@ -35,4 +35,4 @@
   - name: Rebooting the server
     win_reboot:
       msg: "Rebooting..."
-      when: domain_state.reboot_required
+    when: domain_state.reboot_required
