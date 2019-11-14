@@ -12,7 +12,7 @@
     win_domain:
       create_dns_delegation: no
       database_path: C:\Windows\NTDS
-      dns_domain_name: example.com
+      dns_domain_name: EXAMPLE.COM
       domain_mode: Win2012R2
       domain_netbios_name: EXAMPLE
       forest_mode: Win2012R2
@@ -27,7 +27,7 @@
   - name: Promoting the server to a domain controller
     win_domain_controller:
       dns_domain_name: example.com
-      domain_admin_user: example.com\\Administrator
+      domain_admin_user: demo@example.com
       domain_admin_password: r3dh4t1!
       safe_mode_password: r3dh4t1!
       state: domain_controller
