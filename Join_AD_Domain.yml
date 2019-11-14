@@ -1,0 +1,11 @@
+---
+- name: Joining the Domain
+  hosts: all
+  tasks:
+  - name: Joining
+    win_domain_membership:
+      dns_domain_name: EXAMPLE.COM
+      domain_admin_user: demo@example.com
+      domain_admin_password: r3dh4t1!
+      state: domain
+    register: domain_state
