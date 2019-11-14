@@ -10,7 +10,7 @@
       state: present
   - name: domain
     win_domain:
-      create_dns_delegation: no
+      create_dns_delegation: yes
       database_path: C:\Windows\NTDS
       dns_domain_name: EXAMPLE.COM
       domain_mode: Win2012R2
