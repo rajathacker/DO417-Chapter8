@@ -27,7 +27,7 @@
   - name: Promoting the server to a domain controller
     win_domain_controller:
       dns_domain_name: example.com
-      domain_admin_user: EC2AMAZ-OMM1AEH.\Administrator
+      domain_admin_user: Administrator
       domain_admin_password: r3dh4t1!
       safe_mode_password: r3dh4t1!
       state: domain_controller
