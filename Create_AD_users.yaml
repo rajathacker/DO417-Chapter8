@@ -25,7 +25,7 @@
         telephoneNumber: 111-123456
       password_expired: no
       groups:
-          - EXAMPLE.COM\Users\Domain Admin
+          - Domain Admins
           - developers
       #domain_user: EXAMPLE.COM\\Administrator
       #domain_password: wRN*fAnEV%!cGWfDbMS.KKPol2B@enqS
