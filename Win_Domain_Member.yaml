@@ -1,0 +1,10 @@
+
+---
+- name: becoming member of example.com domain
+  hosts: all
+  tasks:
+  - win_domain_membership:
+      workgroup_name: EXAMPLE
+      domain_admin_user: demo
+      domain_admin_password: r3dh4t1!
+      state: workgroup
