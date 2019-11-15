@@ -10,7 +10,7 @@
       scope: global
   - name: Adding now
     win_domain_user:
-      name: rajat
+      name: demo
       firstname: Rajat
       surname: Agrawal
       company: Red Hat Inc.
@@ -24,6 +24,7 @@
       attributes:
         telephoneNumber: 111-123456
       password_expired: no
+      groups_action: add
       groups:
           - Domain Admins
           - developers
