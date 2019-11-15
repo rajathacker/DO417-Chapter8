@@ -27,6 +27,6 @@
       groups:
           - Domain Admin
           - developers
-      domain_user: EXAMPLE.COM\\Administrator
-      domain_password: wRN*fAnEV%!cGWfDbMS.KKPol2B@enqS
-      domain_server: EXAMPLE.COM
+      #domain_user: EXAMPLE.COM\\Administrator
+      #domain_password: wRN*fAnEV%!cGWfDbMS.KKPol2B@enqS
+      #domain_server: EXAMPLE.COM
