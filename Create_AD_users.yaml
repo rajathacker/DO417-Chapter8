@@ -10,7 +10,7 @@
       scope: global
   - name: Adding now
     win_domain_user:
-      name: testnew
+      name: rajat
       firstname: Rajat
       surname: Agrawal
       company: Red Hat Inc.
@@ -27,6 +27,3 @@
       groups:
           - Domain Admins
           - developers
-      #domain_user: EXAMPLE.COM\\Administrator
-      #domain_password: wRN*fAnEV%!cGWfDbMS.KKPol2B@enqS
-      #domain_server: EXAMPLE.COM
