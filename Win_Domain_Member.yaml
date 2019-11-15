@@ -3,8 +3,14 @@
 - name: becoming member of example.com domain
   hosts: all
   tasks:
-  - win_domain_membership:
-      workgroup_name: EXAMPLE
+  - name: Attaching to a windows Domain
+    win_domain_membership:
+      dns_domain_name: EXAMPLE.COM
       domain_admin_user: demo
       domain_admin_password: r3dh4t1!
-      state: workgroup
+      state: domain
+    register: output
+  - name: Rebooting
+    win_reboot:
+      msg: "Rebooting..."
+    when: output.reboot_required 
