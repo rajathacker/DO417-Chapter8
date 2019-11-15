@@ -29,4 +29,4 @@
           - developers
       domain_user: EXAMPLE.COM\\Administrator
       domain_password: wRN*fAnEV%!cGWfDbMS.KKPol2B@enqS
-      domain_server: Administrator@EXAMPLE.COM
+      domain_server: EXAMPLE.COM
