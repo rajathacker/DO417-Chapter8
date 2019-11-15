@@ -10,7 +10,7 @@
       scope: global
   - name: Adding now
     win_domain_user:
-      name: test1
+      name: testing
       firstname: Rajat
       surname: Agrawal
       company: Red Hat Inc.
@@ -25,7 +25,7 @@
         telephoneNumber: 111-123456
       password_expired: no
       groups:
-          - Domain Users
+          - Domain Admin
           - developers
       domain_user: EXAMPLE.COM\\Administrator
       domain_password: wRN*fAnEV%!cGWfDbMS.KKPol2B@enqS
