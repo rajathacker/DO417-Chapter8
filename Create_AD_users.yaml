@@ -10,7 +10,7 @@
       scope: global
   - name: Adding now
     win_domain_user:
-      name: demo
+      name: rajat
       firstname: Rajat
       surname: Agrawal
       company: Red Hat Inc.
