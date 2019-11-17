@@ -7,7 +7,7 @@
     win_domain_membership:
       dns_domain_name: EXAMPLE.COM
       domain_admin_user: Administrator
-      domain_admin_password: NUo-ek@W7P8n37HS-?O7KDzDl7!MnWXz
+      domain_admin_password: 'NUo-ek@W7P8n37HS-?O7KDzDl7!MnWXz'
       state: domain
     register: output
   - name: Rebooting
