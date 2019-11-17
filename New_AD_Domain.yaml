@@ -24,10 +24,3 @@
       msg: "Rebooting Server..."
       pre_reboot_delay: 60
     when: domain_install.reboot_required
-  - name: List Domain Controllers in domain
-    win_shell: "nltest /dclist:EXAMPLE.COM"
-    register: domain_list
-    until: domain_list.stderr == ""
-    retries: 10
-  - debug:
-     var: domain_list
