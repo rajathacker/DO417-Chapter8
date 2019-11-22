@@ -1,0 +1,15 @@
+---
+- hosts: aws_csr
+  gather_facts: no
+  tasks:
+    - name: Configure remote host logging
+      ios_logging:
+        dest: host
+        name: 203.0.113.65
+        state: present
+
+
+    - name: Configure Buffer Logging with Size
+      ios_logging:
+        dest: buffered
+        size: 5000
