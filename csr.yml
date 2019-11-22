@@ -1,5 +1,5 @@
 ---
-- hosts: aws_csr
+- hosts: all
   gather_facts: no
   tasks:
     - name: Configure remote host logging
